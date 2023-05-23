@@ -22,16 +22,59 @@
 
         //We want to know the user's pet's name
         //declare a variable called petName to hold the pet's name
-        var petName = "";
+        var pet_name = "";
 
         //We are going to assign the value of Fluffy to the petName variable
-        petName = "Fluffy";
+        pet_name = "Fluffy";
 
         /*We are calling the built in JavaScript alert function
 
         */
-        alert("The pet's name is: " + petName);
+        //alert("The pet's name is: " + pet_name);
 
+        //this is a variable in camelCase
+        var petName = "";
+
+        //document.write(pet_name);
+        console.log(pet_name);
+
+        //document.getElementById("petsName").innerHTML = pet_name;
+
+        //Create a function that runs a calculator
+        function runCalc(){
+            //set up 2 variables that will hold user inputs
+            var num1 = 0;
+            var num2 = 0;
+
+            //Do loops run at least 1 time and can run an infinite amount of times. 
+            //Make sure to include code that will exit the loop.
+            //In this case, the loop will run as long as num1 is not a number (i.e., a string) or num 1 is 0.
+            //Once num1 is a number not equal to 0, we will exit the loop.
+            do{
+                num1 = prompt("Please enter number 1: ")
+            }while (isNaN(num1) || num1 == 0);
+
+            //Do loops run at least 1 time and can run an infinite amount of times. 
+            //Make sure to include code that will exit the loop.
+            //In this case, the loop will run as long as num2 is not a number (i.e., a string) or num 1 is 0.
+            //Once num1 is a number not equal to 0, we will exit the loop.
+            do{
+                num2 = prompt("Please enter number 2: ")
+            }while (isNaN(num2) || num2 == 0);
+
+            //add num1 and num2 to the total variable
+            var total = parseInt(num1) + parseInt(num2);
+            //multiply num1 and num2 to the total variable
+            var product = parseInt(num1) * parseInt(num2);
+            
+            //display the description of the addition in an alert
+            alert("The total of " + num1 + " plus " + num2 + " is " + total);
+            //display the description of the multiplication in an alert
+            alert("The product of " + num1 + " times " + num2 + " is " + product);
+        }
+
+        //this code calls (runs) the runCalc function
+        runCalc();
     </script>
 
 </body>
