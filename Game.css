@@ -1,0 +1,17 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkslategray;
+    color:aliceblue
+}
+
+h1{
+    color:royalblue
+}
+
+div{
+    font-size: larger;
+}
+
+.btn{
+    background-color: violet;
+}
