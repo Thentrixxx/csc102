@@ -7,3 +7,28 @@ h1{
     font-family:Arial, Helvetica, sans-serif;
     color:purple;
 }
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memeImage{
+    margin-right: 200px
+}
+
+header{
+    text-align: center;
+}
+
+a:hover{
+    color:crimson
+}
