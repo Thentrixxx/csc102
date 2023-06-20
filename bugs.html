@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugs are Fun</title>
+</head>
+<body>
+    <h1>
+        Fun with Bugs
+    </h1>
+    <script>
+        //Bug 1: undefined variable, Javascript is case sensitive so
+        //numOfPets is a different variable than numofpets
+        var numOfPets = 5;
+        console.log(numOfPets);
+
+        //Bug 2: loop
+        var count = 0;
+        while (count <= 5){
+            console.log(count);
+            count++;
+        }
+
+        //Bug 3: math
+        function addNumbers(num1, num2){
+            return num1 - num2;
+        }
+
+        var number1 = 4;
+        var number2 = 5;
+        var sum = addNumbers(number1, number2);
+        console.log("The sum is: " + sum);
+    </script>
+</body>
+</html>

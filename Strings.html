@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Assignment</title>
+    <link rel="stylesheet" href="validation.css">
+    <script src="validation.js"></script>
+</head>
+<body>
+    <!-- This is the page title, greeting the user. -->
+    <h1>Please enter your first and last names and your zip code in order to continue.</h1>
+
+    <br>
+
+    <!-- This displays the error message if needed. -->
+    <div id="errorMessage"></div>
+
+    <br>
+    
+    <!-- This is the form for the input. It collects the first and last name, as well as the zip code. -->
+    <form name="theForm" id="theForm" onsubmit="return validateForm();">
+        <!-- Label and text box for First Name -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+        <br>
+         <!-- Label and text box for Last Name -->
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+        <br>
+         <!-- Label and text box for Zip Code -->
+        <label for="zipCode">Zip Code:</label>
+        <input type="text" id="zipCode" name="zipCode">
+        <br>
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- This div will display a secret message if the inputs pass validation. -->
+    <div id="secretMessage"></div>
+</body>
+</html>
