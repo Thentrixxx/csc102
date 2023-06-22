@@ -22,7 +22,10 @@ footer{
 }
 
 #memeImage{
-    margin-right: 200px
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 200px;
 }
 
 header{
@@ -31,4 +34,12 @@ header{
 
 a:hover{
     color:crimson
+}
+
+.btn{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+    background-color:aquamarine;
+    color: white;
 }
