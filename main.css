@@ -32,6 +32,12 @@ header{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+    color:rgba(21 14 65 0.568)
+
+}
+
 a:hover{
     color:crimson
 }
@@ -42,4 +48,5 @@ a:hover{
     font-weight: 900;
     background-color:aquamarine;
     color: white;
+    border-radius: 14px 12px 5px 5px;
 }
