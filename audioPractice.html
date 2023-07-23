@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with Sounds</title>
+    <script src="sound.js"></script>
+</head>
+<body>
+    <h1>Listen to this sound</h1>
+
+    <!-- This button will call the addSound function, which will create an AUDIO element -->
+    <button onclick="addSound();">Add Sound</button>
+    <br><br>
+    <!-- This button will call the play function to play the audio -->
+    <button onclick="play();" id="btnPlay" hidden="true">Play</button>
+    <br><br>
+    <!-- This button will call the pause function to pause the audio -->
+    <button onclick="pause();" id="btnPause" hidden="true">Pause</button>
+</body>
+</html>
