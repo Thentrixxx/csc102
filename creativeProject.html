@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12 Assignment</title>
+    <link rel="stylesheet" href="creativeProject.css">
+    <script src="creativeProject.js"></script>
+</head>
+<body>
+    <h1>Enter all colors of the rainbow!</h1>
+    <br>
+
+    <!-- This displays the error message if needed. -->
+    <div id="errorMessage"></div>
+
+    <br>
+    
+    <!-- This is the form for the input. it's what collects the 7 colors of the rainbow. -->
+    <form name="theForm" id="theForm" onsubmit="return validateForm();">
+        <!-- Label and text box for Red -->
+        <label for="answerRed">First Color:</label>
+        <input type="text" id="answerRed" name="answerRed">
+        <br>
+        <!-- Label and text box for Orange -->
+        <label for="answerOrange">Second Color:</label>
+        <input type="text" id="answerOrange" name="answerOrange">
+        <br>
+        <!-- Label and text box for Yellow -->
+        <label for="answerYellow">Third Color:</label>
+        <input type="text" id="answerYellow" name="answerYellow">
+        <br>
+        <!-- Label and text box for Green -->
+        <label for="answerGreen">Fourth Color:</label>
+        <input type="text" id="answerGreen" name="answerGreen">
+        <br>
+        <!-- Label and text box for Blue -->
+        <label for="answerBlue">Fifth Color:</label>
+        <input type="text" id="answerBlue" name="answerBlue">
+        <br>
+        <!-- Label and text box for Indigo -->
+        <label for="answerIndigo">Sixth Color:</label>
+        <input type="text" id="answerIndigo" name="answerIndigo">
+        <br>
+        <!-- Label and text box for Purple -->
+        <label for="answerPurple">Seventh Color:</label>
+        <input type="text" id="answerPurple" name="answerPurple">
+        <br>
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- This div will let the player know that they're correct when they answer correctly. -->
+    <div id="correctAnswer"></div>
+
+</body>
+</html>

@@ -3,12 +3,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: grey;
+    background-color:rgb(255, 163, 163);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 form{
-    background-color: lightgray;
+    background-color: rgb(255, 206, 194);
     padding: 30px;
     text-align: center;
     border-radius: 15px;
@@ -21,7 +21,7 @@ form input{
     margin: 18px auto;
     padding: 8px;
     text-align: center;
-    border: 2px solid blue;
+    border: 2px solid rgb(244, 255, 182);
     outline: nonel;
     width: 180px;
     font-size: 22px;
@@ -30,12 +30,16 @@ form input{
 
 form input [type="submit"]{
     cursor: pointer;
-    font-size: 16px;
+    font-size: 32px;
     font-weight: 800;
-    background-color: blue;
+    background-color: rgb(241, 255, 160);
     color: white;
 }
 
-form input [type="secretMessage"]{
-    font-size:30px;
+form input [type="correctAnswer"]{
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 800;
+    background-color: rgb(241, 255, 160);
+    color: white;
 }
