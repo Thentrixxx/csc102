@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Game Data</title>
+    <style>
+        /* Table styles */
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 16pt;
+        }
+
+        /* Table header styles */
+        th{
+            background-color:rgb(255, 183, 115);
+            color:black;
+            font-weight: bold;
+            padding: 12px;
+            text-align: left;
+            border: 2px solid;
+        }
+
+        /* Table cell/data style */
+        td{
+            padding: 10px;
+            border: 1px solid;
+        }
+
+        /* Alternating row colors */
+        tr:nth-child(even){
+            background-color:rgb(186, 228, 255);
+            color: black;
+        }
+
+        /* Hover effect when the mouse hovers over the row */
+        tr:hover{
+            background-color:rgb(188, 217, 255);
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Video Game Data</h1>
+    <!---Hard code an HTML table with hard coded data--->
+    <table>
+        <!---This is the header row--->
+        <tr>
+            <th>Game Name</th>
+            <th>Genre</th>
+            <th>Minimum Age</th>
+        </tr>
+        <!---These are the data rows--->
+        <tr>
+            <td>Hollow Knight</td>
+            <td>Metroidvania</td>
+            <td>7+</td>
+        </tr>
+        <tr>
+            <td>Minecraft</td>
+            <td>Open World Sandbox</td>
+            <td>Any</td>
+        </tr>
+        <tr>
+            <td>Guitar Hero</td>
+            <td>Rhythm Game</td>
+            <td>13+</td>
+        </tr>
+        <tr>
+            <td>Celeste</td>
+            <td>Precision Platformer</td>
+            <td>13+</td>
+        </tr>
+    </table>
+</body>
+</html>
