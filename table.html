@@ -41,9 +41,43 @@
         tr:hover{
             background-color:rgb(188, 217, 255);
         }
+
+        .menu{
+            background-color: rgb(215, 255, 215);
+            overflow: hidden;
+        }
+
+        .menu a{
+            float: left;
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu a:hover{
+            background-color:rgb(174, 221, 143)
+        }
+
+        .menu a.active{
+            background-color: rgb(172, 255, 241);
+        }
     </style>
     
 </head>
+<!--This is the menu to navigate around the entire site-->
+<div class="menu">
+<a href="landingPage.html">Home</a>
+    <a href="index.html">Meme</a>
+    <a href="boards.html">Boards</a>
+    <a href="Game.html">Game</a>
+    <a href="w9.html">Palindrome Checker</a>
+    <a href="creativeProject.html">Project</a>
+    <a class="active" href="table.html">Table</a>
+    <a href="Strings.html">Validation</a>
+</div>
 <body>
     <h1>Video Game Data</h1>
     <!---Hard code an HTML table with hard coded data--->

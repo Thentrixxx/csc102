@@ -1,17 +1,13 @@
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: darkslategray;
-    color:aliceblue
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(193, 243, 243);
+    color:rgb(0, 0, 0)
 }
 
 h1{
-    color:royalblue
-}
-
-div{
-    font-size: larger;
+    color:rgb(0, 0, 0)
 }
 
 .btn{
-    background-color: violet;
+    background-color: rgb(250, 165, 250);
 }

@@ -1,11 +1,14 @@
 body{
-    background-color: white;
-    color:darkblue
+    color:rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+    font-size:16px;
+    background-color: rgb(240, 255, 240);
 }
 
 h1{
-    font-family:Arial, Helvetica, sans-serif;
-    color:purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 0, 0);
 }
 
 nav{
@@ -49,4 +52,28 @@ a:hover{
     background-color:aquamarine;
     color: white;
     border-radius: 14px 12px 5px 5px;
+}
+
+.menu{
+    background-color: rgb(215, 255, 215);
+    overflow: hidden;
+}
+
+.menu a{
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+}
+
+.menu a:hover{
+    background-color:rgb(174, 221, 143)
+}
+
+.menu a.active{
+    background-color: rgb(172, 255, 241);
 }
